@@ -84,6 +84,10 @@ code {
     width: 16px
 }
 
+.about__text--wrapp {
+    margin-top: 30px
+}
+
 @media (min-width:700px) {
     .about__title {
         font-size: 40px
@@ -99,7 +103,8 @@ code {
     }
     .about__text--wrapp {
         margin-left: 20px;
-        margin-right: 20px
+        margin-right: 20px;
+        margin-top: 0
     }
 }
 
@@ -385,14 +390,6 @@ code {
     opacity: .75
 }
 
-.App p,
-h1,
-h2,
-h3 {
-    margin: 0 0 40px;
-    padding: 0
-}
-
 *,
 .footer {
     box-sizing: border-box
@@ -469,6 +466,7 @@ h3 {
 
 @media (max-width:699px) {
     .logo {
+        margin-bottom: 20px;
         margin-left: 0;
         margin-top: 20px
     }
@@ -496,7 +494,7 @@ h3 {
 
 .nav__list {
     list-style: none;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
     text-align: center;
     width: 100%
@@ -534,7 +532,8 @@ h3 {
         align-content: center;
         border-bottom: 1px solid #fff;
         height: 50px;
-        padding-top: 20px;
+        justify-content: center;
+        padding-top: 12px;
         width: 100%
     }
     .nav__list li:first-child {
@@ -630,8 +629,9 @@ h3 {
 }
 
 .title__description {
-    font-size: 30px;
-    margin-bottom: 20px
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center
 }
 
 @media (min-width:700px) {
@@ -649,9 +649,10 @@ h3 {
         width: 300px
     }
     .title__name {
-        font-size: 60px
+        font-size: 50px
     }
     .title__description {
+        font-size: 26px;
         margin-bottom: 0
     }
 }
@@ -664,6 +665,10 @@ h3 {
     }
     .title__name {
         font-size: 70px
+    }
+    .title__description {
+        font-size: 30px;
+        margin-bottom: 20px
     }
 }
 
@@ -889,6 +894,10 @@ h3 {
     padding: 0
 }
 
+.skill-item__about {
+    margin-top: 20px
+}
+
 @media (min-width:700px) {
     .skills {
         padding-left: 20px;
@@ -928,4 +937,4 @@ h3 {
 }
 
 
-/*# sourceMappingURL=main.1e9a545b.css.map*/
+/*# sourceMappingURL=main.d33e301b.css.map*/
